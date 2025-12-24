@@ -1,4 +1,4 @@
-// File: C:\Users\MHAZIEMNABAWI\Documents\TUGAS SEMESTER 7\VISUAL DATA\TUBES\climate-cobenefits-viz\app\layout.tsx
+// File: C:\Users\MHAZIEMNABAWI\Documents\TUGAS SEMESTER 7\VISUAL DATA\TUBES\climate-cobenefits-viz\Visdat_KEL5\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -323,14 +323,15 @@ export default function Home() {
             <ResponsiveContainer width="100%" height={500}>
               <AreaChart data={animatedData}>
                 <defs>
-                  <linearGradient id="colorAir" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.8}/>
-                    <stop offset="95%" stopColor="#3b82f6" stopOpacity={0}/>
-                  </linearGradient>
-                  <linearGradient id="colorPhysical" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#10b981" stopOpacity={0.8}/>
-                    <stop offset="95%" stopColor="#10b981" stopOpacity={0}/>
-                  </linearGradient>
+                  {animatedData.length > 0 && (() => {
+                    const palette = ['#3b82f6', '#10b981', '#06b6d4', '#f59e0b', '#8b5cf6', '#ef4444', '#f97316']
+                    return animatedData[0].benefits.map((b: any, i: number) => (
+                      <linearGradient key={i} id={`color-${i}`} x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor={palette[i % palette.length]} stopOpacity={0.8}/>
+                        <stop offset="95%" stopColor={palette[i % palette.length]} stopOpacity={0}/>
+                      </linearGradient>
+                    ))
+                  })()}
                 </defs>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
                 <XAxis 
@@ -351,31 +352,37 @@ export default function Home() {
                     color: '#fff'
                   }}
                 />
-                {animatedData.length > 0 && animatedData[0].benefits.map((benefit: any, idx: number) => (
-                  <Area
-                    key={idx}
-                    type="monotone"
-                    dataKey={`benefits[${idx}].value`}
-                    stroke={idx === 0 ? '#3b82f6' : '#10b981'}
-                    fillOpacity={1}
-                    fill={idx === 0 ? 'url(#colorAir)' : 'url(#colorPhysical)'}
-                    animationDuration={2000}
-                  />
-                ))}
+                {animatedData.length > 0 && (() => {
+                  const palette = ['#3b82f6', '#10b981', '#06b6d4', '#f59e0b', '#8b5cf6', '#ef4444', '#f97316']
+                  return animatedData[0].benefits.map((benefit: any, idx: number) => (
+                    <Area
+                      key={idx}
+                      type="monotone"
+                      dataKey={`benefits[${idx}].value`}
+                      stroke={palette[idx % palette.length]}
+                      fillOpacity={1}
+                      fill={`url(#color-${idx})`}
+                      animationDuration={2000}
+                    />
+                  ))
+                })()} 
               </AreaChart>
             </ResponsiveContainer>
 
             {/* Legend */}
             <div className="mt-8 flex flex-wrap gap-6 justify-center">
-              {animatedData.length > 0 && animatedData[0].benefits.map((benefit: any, idx: number) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <div 
-                    className="w-4 h-4 rounded"
-                    style={{ backgroundColor: idx === 0 ? '#3b82f6' : '#10b981' }}
-                  />
-                  <span className="text-sm text-gray-400">{benefit.name}</span>
-                </div>
-              ))}
+              {animatedData.length > 0 && (() => {
+                const palette = ['#3b82f6', '#10b981', '#06b6d4', '#f59e0b', '#8b5cf6', '#ef4444', '#f97316']
+                return animatedData[0].benefits.map((benefit: any, idx: number) => (
+                  <div key={idx} className="flex items-center gap-2">
+                    <div 
+                      className="w-4 h-4 rounded"
+                      style={{ backgroundColor: palette[idx % palette.length] }}
+                    />
+                    <span className="text-sm text-gray-400">{benefit.name}</span>
+                  </div>
+                ))
+              })()}
             </div>
           </div>
 

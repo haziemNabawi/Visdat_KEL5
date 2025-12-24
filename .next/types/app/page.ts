@@ -1,4 +1,4 @@
-// File: C:\Users\MHAZIEMNABAWI\Documents\TUGAS SEMESTER 7\VISUAL DATA\TUBES\climate-cobenefits-viz\app\page.tsx
+// File: C:\Users\MHAZIEMNABAWI\Documents\TUGAS SEMESTER 7\VISUAL DATA\TUBES\climate-cobenefits-viz\Visdat_KEL5\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
