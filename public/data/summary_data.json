@@ -1,0 +1,65 @@
+{
+  "total_benefits": {
+    "value": 145621.37257271103,
+    "unit": "Million GBP",
+    "formatted": "£145,621.37M"
+  },
+  "total_areas": 46426,
+  "air_quality": {
+    "total": 48259.408723722,
+    "average": 1.0394909904734848,
+    "percentage": 21.274203216268283,
+    "rank": 1
+  },
+  "co_benefits": [
+    {
+      "id": "physical_activity",
+      "name": "Physical Activity",
+      "total": 129879.193587864,
+      "average": 2.797552957133158,
+      "percentage": 57.2546666241079
+    },
+    {
+      "id": "air_quality",
+      "name": "Cleaner Air",
+      "total": 48259.408723722,
+      "average": 1.0394909904734848,
+      "percentage": 21.274203216268283
+    },
+    {
+      "id": "noise",
+      "name": "Quieter Spaces",
+      "total": 34207.746110010004,
+      "average": 0.736823032568173,
+      "percentage": 15.079806436939219
+    },
+    {
+      "id": "excess_cold",
+      "name": "Warmer Homes",
+      "total": 8801.601831185,
+      "average": 0.189583462524986,
+      "percentage": 3.880011606799217
+    },
+    {
+      "id": "diet_change",
+      "name": "Healthier Diet",
+      "total": 5054.870250856,
+      "average": 0.10888015876569164,
+      "percentage": 2.228339297819016
+    },
+    {
+      "id": "dampness",
+      "name": "Drier Homes",
+      "total": 641.798414761,
+      "average": 0.013824116115129454,
+      "percentage": 0.2829241024826901
+    },
+    {
+      "id": "excess_heat",
+      "name": "Cooler Homes",
+      "total": 0.11050873400000001,
+      "average": 2.3803199500280017e-06,
+      "percentage": 4.871558368540279e-05
+    }
+  ]
+}

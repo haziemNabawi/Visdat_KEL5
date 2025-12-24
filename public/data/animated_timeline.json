@@ -1,0 +1,176 @@
+[
+  {
+    "year": 2025,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 0.0
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 0.0
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 0.0
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 0.0
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 0.0
+      },
+      {
+        "name": "Drier Homes",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2030,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 25975.838717572802
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 9651.8817447444
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 6841.549222002001
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 1760.3203662370001
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 1010.9740501712
+      },
+      {
+        "name": "Drier Homes",
+        "value": 128.35968295220002
+      }
+    ]
+  },
+  {
+    "year": 2035,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 51951.677435145604
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 19303.7634894888
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 13683.098444004003
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 3520.6407324740003
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 2021.9481003424
+      },
+      {
+        "name": "Drier Homes",
+        "value": 256.71936590440004
+      }
+    ]
+  },
+  {
+    "year": 2040,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 77927.5161527184
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 28955.6452342332
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 20524.647666006003
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 5280.961098711
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 3032.9221505135997
+      },
+      {
+        "name": "Drier Homes",
+        "value": 385.07904885659997
+      }
+    ]
+  },
+  {
+    "year": 2045,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 103903.35487029121
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 38607.5269789776
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 27366.196888008006
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 7041.281464948001
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 4043.8962006848
+      },
+      {
+        "name": "Drier Homes",
+        "value": 513.4387318088001
+      }
+    ]
+  },
+  {
+    "year": 2050,
+    "benefits": [
+      {
+        "name": "Physical Activity",
+        "value": 129879.193587864
+      },
+      {
+        "name": "Cleaner Air",
+        "value": 48259.408723722
+      },
+      {
+        "name": "Quieter Spaces",
+        "value": 34207.746110010004
+      },
+      {
+        "name": "Warmer Homes",
+        "value": 8801.601831185
+      },
+      {
+        "name": "Healthier Diet",
+        "value": 5054.870250856
+      },
+      {
+        "name": "Drier Homes",
+        "value": 641.798414761
+      }
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "region": "England",
+    "total_air_quality": 40702.530002088,
+    "total_benefits": 123200.13152158499,
+    "area_count": 33755,
+    "avg_per_area": 1.205822248617627,
+    "top_areas": [
+      {
+        "small_area": "E01028521",
+        "display_name": "Oxford",
+        "air_quality": 6.74
+      },
+      {
+        "small_area": "E01035514",
+        "display_name": "Bromley, London",
+        "air_quality": 6.01
+      },
+      {
+        "small_area": "E01034493",
+        "display_name": "Bromley, London",
+        "air_quality": 4.69
+      },
+      {
+        "small_area": "E01025105",
+        "display_name": "Bexley, London",
+        "air_quality": 4.57956385
+      },
+      {
+        "small_area": "E01013378",
+        "display_name": "Barnet, London",
+        "air_quality": 4.577120101
+      },
+      {
+        "small_area": "E01033617",
+        "display_name": "Bromley, London",
+        "air_quality": 4.390709274
+      },
+      {
+        "small_area": "E01035516",
+        "display_name": "Bromley, London",
+        "air_quality": 4.22
+      },
+      {
+        "small_area": "E01035309",
+        "display_name": "Bromley, London",
+        "air_quality": 3.773007117
+      },
+      {
+        "small_area": "E01011678",
+        "display_name": "Barking and Dagenham, London",
+        "air_quality": 3.761722976
+      },
+      {
+        "small_area": "E01035508",
+        "display_name": "Bromley, London",
+        "air_quality": 3.74
+      }
+    ]
+  },
+  {
+    "region": "Wales",
+    "total_air_quality": 2267.241758501,
+    "total_benefits": 6577.374461656,
+    "area_count": 1917,
+    "avg_per_area": 1.1827030560777254,
+    "top_areas": [
+      {
+        "small_area": "W01001695",
+        "display_name": "Cardiff",
+        "air_quality": 3.445347483
+      },
+      {
+        "small_area": "W01002002",
+        "display_name": "Swansea",
+        "air_quality": 3.35
+      },
+      {
+        "small_area": "W01001989",
+        "display_name": "Cardiff",
+        "air_quality": 2.743171563
+      },
+      {
+        "small_area": "W01001756",
+        "display_name": "Cardiff",
+        "air_quality": 2.645830943
+      },
+      {
+        "small_area": "W01000092",
+        "display_name": "Newport",
+        "air_quality": 2.325528634
+      },
+      {
+        "small_area": "W01002019",
+        "display_name": "Swansea",
+        "air_quality": 2.28
+      },
+      {
+        "small_area": "W01001729",
+        "display_name": "Cardiff",
+        "air_quality": 2.2593036
+      },
+      {
+        "small_area": "W01001105",
+        "display_name": "Cardiff",
+        "air_quality": 2.248436747
+      },
+      {
+        "small_area": "W01001661",
+        "display_name": "Cardiff",
+        "air_quality": 2.24724362
+      },
+      {
+        "small_area": "W01001190",
+        "display_name": "Cardiff",
+        "air_quality": 2.24069485
+      }
+    ]
+  },
+  {
+    "region": "Scotland",
+    "total_air_quality": 3906.686149225,
+    "total_benefits": 12655.158058414,
+    "area_count": 6976,
+    "avg_per_area": 0.5600180833178039,
+    "top_areas": [
+      {
+        "small_area": "S01012030",
+        "display_name": "Glasgow",
+        "air_quality": 3.410491815
+      },
+      {
+        "small_area": "S01012820",
+        "display_name": "Glasgow",
+        "air_quality": 3.007360504
+      },
+      {
+        "small_area": "S01013401",
+        "display_name": "Edinburgh",
+        "air_quality": 2.496930438
+      },
+      {
+        "small_area": "S01010991",
+        "display_name": "Dundee",
+        "air_quality": 2.466488701
+      },
+      {
+        "small_area": "S01008425",
+        "display_name": "Aberdeen",
+        "air_quality": 2.431011011
+      },
+      {
+        "small_area": "S01010088",
+        "display_name": "Dundee",
+        "air_quality": 2.358137285
+      },
+      {
+        "small_area": "S01008328",
+        "display_name": "Aberdeen",
+        "air_quality": 2.325596166
+      },
+      {
+        "small_area": "S01008144",
+        "display_name": "Aberdeen",
+        "air_quality": 2.315695902
+      },
+      {
+        "small_area": "S01008549",
+        "display_name": "Aberdeen",
+        "air_quality": 2.249148852
+      },
+      {
+        "small_area": "S01008704",
+        "display_name": "Aberdeen",
+        "air_quality": 2.174929751
+      }
+    ]
+  },
+  {
+    "region": "Northern Ireland",
+    "total_air_quality": 1382.9508139079999,
+    "total_benefits": 3188.708531056,
+    "area_count": 3778,
+    "avg_per_area": 0.3660536828766543,
+    "top_areas": [
+      {
+        "small_area": "N20001163",
+        "display_name": "Belfast",
+        "air_quality": 1.530675204
+      },
+      {
+        "small_area": "N20000855",
+        "display_name": "Belfast",
+        "air_quality": 1.07
+      },
+      {
+        "small_area": "N20001081",
+        "display_name": "Belfast",
+        "air_quality": 1.05
+      },
+      {
+        "small_area": "N20000279",
+        "display_name": "Belfast",
+        "air_quality": 0.996897567
+      },
+      {
+        "small_area": "N20003556",
+        "display_name": "Derry",
+        "air_quality": 0.859210432
+      },
+      {
+        "small_area": "N20001291",
+        "display_name": "Belfast",
+        "air_quality": 0.805669005
+      },
+      {
+        "small_area": "N20002270",
+        "display_name": "Lisburn",
+        "air_quality": 0.805637729
+      },
+      {
+        "small_area": "N20003065",
+        "display_name": "Derry",
+        "air_quality": 0.8012108
+      },
+      {
+        "small_area": "N20003202",
+        "display_name": "Derry",
+        "air_quality": 0.796981507
+      },
+      {
+        "small_area": "N20002881",
+        "display_name": "Armagh",
+        "air_quality": 0.796241951
+      }
+    ]
+  }
+]
